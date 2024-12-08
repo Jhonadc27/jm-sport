@@ -1,0 +1,73 @@
+.container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+.header a {
+  color: rgb(250, 248, 248);
+  text-decoration: none;
+  margin: 0 10px;
+}
+.hero {
+  text-align: center;
+  background: url('https://source.unsplash.com/1600x400/?sports,training') no-repeat center;
+  background-size: cover;
+  color: rgb(250, 246, 246);
+  padding: 100px 20px;
+}
+.cta {
+  background: #ff6200;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.catalogo {
+  padding: 20px;
+  background-color: #131212;
+}
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+}
+.card img {
+  border-radius: 10px;
+}
+.ofertas {
+  padding: 20px;
+  background-color: #031f6d;
+  color: rgb(10, 10, 10);
+}
+.ofertasGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.logoImage {
+  width: 50px; 
+  height: auto;
+}
